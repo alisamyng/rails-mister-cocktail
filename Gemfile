@@ -5,7 +5,14 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+# Front-end gems
+gem 'bootstrap-sass'
+gem ruby '2.4.3'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+gem 'jquery-rails'
+# Add this line if you use Rails 5.1
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use postgresql as the database for Active Record
